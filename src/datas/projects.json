@@ -1,0 +1,42 @@
+[
+	{
+		"id": "poc-1",
+		"title": "Booki",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"description": "Landing page pour une application de réservation de logements.",
+		"technologies": [
+			"HTML5",
+			"CSS3"
+		]
+	},
+	{
+		"id": "poc-2",
+		"title": "Sophie Bluel",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"description": "Portfolio d'une photographe professionnelle.",
+		"technologies": [
+			"JavaScript"
+		]
+	},
+	{
+		"id": "poc-3",
+		"title": "Kasa",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"description": "Landing page pour une application de réservation de logements.",
+		"technologies": [
+			"React",
+			"Sass"
+		]
+	},
+	{
+		"id": "poc-4",
+		"title": "Mon vieux grimoire",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"description": "Site de notation de livres.",
+		"technologies": [
+			"Node",
+			"Express",
+            "MongoDB"
+		]
+	}
+]
