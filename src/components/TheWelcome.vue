@@ -12,7 +12,7 @@
       <div class="welcome-text_buttons">
         <button class="button_global button_projects">Projets</button>
         <button class="button_global button_contact">Contact</button>
-        <button class="button_global button_resume"><img src="../../public/save.svg"/>CV</button>
+        <!-- <a  download="fake_cv.pdf" href="@/assets/fake_cv.pdf">--><button class="button_global button_resume"><img src="/save.svg"/>CV</button><!--</a> -->
       </div>
     </div>
     <div class="welcome-illustration">

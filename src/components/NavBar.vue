@@ -16,10 +16,6 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/contact">Contact</RouterLink>
       </nav>
     </div>
-    <!-- <div class="resume-wrapper">
-    <a class="resume" download="fake_cv.pdf" href="@/assets/fake_cv.pdf">CV</a>
-    <i></i>
-    </div> -->
   </header>
 
   <RouterView />
