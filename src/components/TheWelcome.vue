@@ -10,13 +10,13 @@
       <p class="welcome-text_addition">Découvrez mes projets et n'hésitez pas à me contacter pour évoquer notre future
         collaboration</p>
       <div class="welcome-text_buttons">
-        <button class="button_global button_projects">Projets</button>
-        <button class="button_global button_contact">Contact</button>
-        <!-- <a  download="fake_cv.pdf" href="@/assets/fake_cv.pdf">--><button class="button_global button_resume"><img src="/save.svg"/>CV</button><!--</a> -->
+        <a href="#projects-anchor" class="button_global button_projects">Projets</a>
+        <button class="button_global button_contact" @click="$router.push('/contact')">Contact</button>
+        <!-- <a  download="fake_cv.pdf" href="@/assets/fake_cv.pdf">--><button class="button_global button_resume"><img src="@/assets/images/icos/save.svg"/>CV</button><!--</a> -->
       </div>
     </div>
     <div class="welcome-illustration">
-      <img src="../assets/pexels-fauxels-3184416.png" alt="deux personnes dont une serre la main à quelqu'un hors-champ">
+      <img src="@/assets/images/pexels-fauxels-3184416.png" alt="deux personnes dont une serre la main à quelqu'un hors-champ">
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute">
       <defs>

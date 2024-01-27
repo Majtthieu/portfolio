@@ -27,5 +27,23 @@
         height: 400px
         width: 400px
         clip-path: circle(50% at 50% 50%)
+        position: relative
         img
             height: 100%
+        &:before
+            content: "Hello"
+            color: $color3
+            font-family: "comfortaa"
+            font-size: 2rem
+            position: absolute
+            width: 20%
+            height: 20%
+            background-color: $color2
+            transition: all 1s ease-in-out
+            background-color: transparent
+            opacity: 0
+            top: 60%
+            left: 8%
+        &:hover
+            &::before
+                opacity: 1
