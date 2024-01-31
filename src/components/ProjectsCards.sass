@@ -10,64 +10,72 @@
     display: flex
     flex-direction: column
     align-items: center
-    &_line
-        width: 100px
-        height: 4px
-        border-radius: 2px
-        background-color: $color2
-        margin-bottom: 2rem
 
 .projects-cards
-    display: flex
-    flex-direction: column
-    gap: 2rem
+    max-width: 1280px
+    @include large
+        max-width: 900px
+    @include small
+        max-width: 700px
+    @include xsmall
+        max-width: 376px
+    @include xxsmall
+        max-width: 320px
 
 .projects-card
     display: flex
+    flex-direction: column
+    align-items: center
     border-radius: 2rem
     overflow: hidden
-    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15))
+    border: solid 2px $color3
+    width: 380px
+    @include small
+        width: 280px
+    @include xxsmall
+        width: 220px
     &_text
         background-color: #FFFFFF
         display: flex
-        gap: 2rem
         flex-direction: column
-        justify-content: center
-        width: 450px
-        height: 450px
-        padding: 2rem
+        width: 100%
+        height: 300px
+        padding: 1.5rem 2rem 1rem 2rem
+        justify-content: start
+        @include medium
+            height: 150px
+        @include small
+            padding: 1rem
+            height: 130px
         h4
             color: $color3
             font-family: "Playfair Display"
-            font-size: 40px
+            font-size: 2rem
             font-style: normal
             font-weight: 700
             line-height: 150%
+            @include small
+                font-size: 1.5rem
         p
+            margin-top: 1rem
             color: $color4
             font-size: calc(18rem/16)
             line-height: 150%
-
+            @include medium
+                display: none
         &_technologies
+            margin-top: auto
             display: flex
             gap: 1.5rem
-            span
-                display: flex
-                align-items: center
-                background-color: $color2
-                height: 2rem
-                border-radius: 1rem
-                padding: 0 1rem
-                color: $color3
-                font-family: "Roboto"
-                font-size: calc(18rem/16)
-                font-style: normal
-                font-weight: 500
-                line-height: 150%
     &_image
         overflow: hidden
-        width: 450px
-        height: 450px
+        width: 100%
+        height: 380px
+        border-bottom: solid 2px $color3
+        @include small
+            height: 280px
+        @include xxsmall
+            height: 220px
         img
             transition: transform 0.5s ease-in-out
             width: 100%
@@ -77,5 +85,15 @@
         img
             transform: scale(1.1)
 
-.projects-card_reverse
-    flex-direction: row-reverse
+.splide__slide
+    display: flex
+    justify-content: center
+
+#svgp, #svgn
+    fill: $color3
+
+.splide__arrow--prev, .splide__arrow--next
+    &:hover
+        transition: all 0.3s ease-in-out
+        #svgp, #svgn
+            fill: $color2

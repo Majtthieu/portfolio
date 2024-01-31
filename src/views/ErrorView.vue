@@ -3,7 +3,11 @@
 
 <template>
   <main>
-    <h1>404</h1>
+    <h3>404</h3>
     <p>La page que vous cherchez n'existe pas</p>
   </main>
 </template>
+
+<style scoped>
+@import "./ErrorView.sass"; 
+</style>

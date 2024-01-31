@@ -1,39 +1,55 @@
 [
 	{
-		"id": "poc-3",
+		"id": "poc6",
 		"title": "Kasa",
 		"cover": "kasa_sq.webp",
-		"description": "Landing page pour une application de réservation de logements.",
+		"description": "Application de réservation de logements.",
+		"descriptionbis": "Création de l'appli React, de ses composants, des routes et de son style.",
 		"technologies": [
 			"React",
 			"Sass"
-		]
+		],
+		"github": "https://github.com/Majtthieu/OpenclassroomsProject4/tree/main/kasa",
+		"demo": "https://asak.vercel.app/"
 	},
 	{
-		"id": "poc-4",
+		"id": "poc7",
 		"title": "Mon vieux grimoire",
 		"cover": "grimoire_sq.webp",
 		"description": "Site de notation de livres.",
+		"descriptionbis": "Développement du backend, sécurisation des mots de passe et optimisation des images.",
 		"technologies": [
-			"Node",
 			"Express",
             "MongoDB"
 		]
 	},
 	{
-		"id": "poc-2",
+		"id": "poc3",
 		"title": "Sophie Bluel",
 		"cover": "sophie_sq.webp",
-		"description": "Portfolio d'une photographe professionnelle.",
+		"description": "Portfolio d'une designer d'espace.",
+		"descriptionbis": "Travail sans framework, notamment sur la création d'une modale d'administration.",
 		"technologies": [
 			"JavaScript"
 		]
 	},
 	{
-		"id": "poc-1",
+		"id": "poc5",
+		"title": "Nina Carducci",
+		"cover": "nina_sq.webp",
+		"description": "Portfolio d'une photographe professionnelle.",
+		"descriptionbis": "Optimisation des performances du site, de son SEO et de son accessibilité.",
+		"technologies": [
+			"Lighthouse",
+			"Wave"
+		]
+	},
+	{
+		"id": "poc2",
 		"title": "Booki",
 		"cover": "booki_sq.webp",
-		"description": "Landing page pour une application de réservation de logements.",
+		"description": "Landing page d'une application d'hébergements de vacances.",
+		"descriptionbis": "Intégration d'une maquette à partir de Figma.",
 		"technologies": [
 			"HTML5",
 			"CSS3"

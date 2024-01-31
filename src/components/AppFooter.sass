@@ -10,6 +10,12 @@ footer
     gap: 1rem
     border-radius: 0 0 2rem 2rem
     margin: 0rem auto 2.5rem auto
+    @include large
+        margin: 0
+        border-radius: 0
+    @include small
+        padding-top: 5rem
+        padding-bottom: 2rem
     .footer-icons
         display: flex
         gap: 1.5rem
@@ -17,6 +23,8 @@ footer
             cursor: pointer
             height: 40px
             color: $color3
+            @include medium
+                height: 30px
     .footer-copyright
         p
             color: $color3

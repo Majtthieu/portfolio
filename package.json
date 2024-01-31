@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
+    "@splidejs/vue-splide": "^0.6.12",
     "sass": "^1.69.7",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
