@@ -1,9 +1,8 @@
-@import "../assets/main.sass"
 
 .form-container
     display: flex
     flex-direction: column
-    background-color: $color1
+    background-color: $lgray
     padding: 0 2rem
     display: flex
     align-items: center
@@ -12,8 +11,11 @@
         display: flex
         flex-direction: column
         width: 400px
+        @include xsmall
+            width: 300px
     h3
         margin-bottom: 3rem
+        animation: pulsating 2s 0.5s
     label, p, .form-input, .form-message
         font-size: 1.125rem
     p
@@ -24,3 +26,19 @@
         height: 200px
     .button_form
         margin: 0 auto
+
+@keyframes pulsating
+    0%
+        transform: scale(1)
+
+    25%
+        transform: scale(0.8)
+
+    50%
+        transform: scale(1)
+
+    75%
+        transform: scale(0.8)
+
+    100%
+        transform: scale(1)

@@ -1,4 +1,5 @@
 <template>
+  <main>
   <div v-if="projectData" class="project-container">
     <h3>Projet {{ projectData.title }}</h3>
     <div class="projects-title_line"></div>
@@ -7,15 +8,10 @@
         <img :src="`${baseUrl}src/assets/images/${projectData.cover}`" :alt="projectData.title">
       </div>
       <div class="project-text">
-        <p class="long-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies felis quis erat
-          cursus, non tincidunt mauris convallis. Vivamus ac arcu non quam varius tincidunt sit amet id metus. Morbi eu
-          lectus at nunc dignissim bibendum. Nunc congue dolor et vestibulum dapibus. Nulla facilisi. Sed gravida purus ac
-          tellus cursus, vitae varius justo consequat. Integer auctor, dui et feugiat lacinia, elit eros tincidunt tortor,
-          vel fermentum libero felis vel nisl. Proin sollicitudin cursus tellus, ut aliquet justo consequat ut. Fusce
-          eleifend augue vitae quam rhoncus, in dignissim justo fermentum.</p>
+        <p class="long-text">Il s'agissait d'intégrer une maquette pour une application de location immobilière, avec l'utilisation de React et un design responsive. J'ai donc créé l'application React avec ses routes (gestion des routes inexistantes incluse) et ses composants, par exemple un slider et des éléments collapsibles. L'utilisation de Sass a permis l'adaptation du design aux différentes tailles d'écran grâce à l'utilisation de variables et de mixins. Pour ce projet, une démo déployée sur Vercel est disponible</p>
         <div class="project-text_links">
-          <a :href="projectData.github" target="_blank"><img src="@/assets/images/icos/github.svg" /> lien repo Github</a>
-          <a v-if="projectData.demo" :href="projectData.demo" target="_blank"><img src="@/assets/images/icos/world.svg" />
+          <a :href="projectData.github" target="_blank"><img src="@/assets/images/icos/github.svg" alt="icone Github"/> lien repo Github</a>
+          <a v-if="projectData.demo" :href="projectData.demo" target="_blank"><img src="@/assets/images/icos/world.svg" alt="icone WWW"/>
             lien démo</a>
         </div>
         <div class="project-text_technologies">
@@ -30,6 +26,7 @@
     </div>
 
   </div>
+</main>
 </template>
   
 <script>

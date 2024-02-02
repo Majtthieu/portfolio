@@ -3,6 +3,12 @@
 		"id": "poc6",
 		"title": "Kasa",
 		"cover": "kasa_sq.webp",
+		"images": [
+			"kasa_sq.webp",
+			"kasa_sq.webp",
+			"kasa_sq.webp",
+			"kasa_sq.webp"
+		],
 		"description": "Application de réservation de logements.",
 		"descriptionbis": "Création de l'appli React, de ses composants, des routes et de son style.",
 		"technologies": [
@@ -16,43 +22,72 @@
 		"id": "poc7",
 		"title": "Mon vieux grimoire",
 		"cover": "grimoire_sq.webp",
+		"images": [
+			"grimoire_sq.webp",
+			"grimoire_sq.webp",
+			"grimoire_sq.webp",
+			"grimoire_sq.webp"
+		],
 		"description": "Site de notation de livres.",
 		"descriptionbis": "Développement du backend, sécurisation des mots de passe et optimisation des images.",
 		"technologies": [
 			"Express",
             "MongoDB"
-		]
+		],
+		"github": "https://github.com/Majtthieu/OpenclassroomsProject5"
 	},
 	{
 		"id": "poc3",
 		"title": "Sophie Bluel",
 		"cover": "sophie_sq.webp",
+		"images": [
+			"sophie_sq.webp",
+			"sophie_sq.webp",
+			"sophie_sq.webp",
+			"sophie_sq.webp"
+		],
 		"description": "Portfolio d'une designer d'espace.",
 		"descriptionbis": "Travail sans framework, notamment sur la création d'une modale d'administration.",
 		"technologies": [
 			"JavaScript"
-		]
+		],
+		"github": "https://github.com/Majtthieu/OpenclassroomsProject2"
 	},
 	{
 		"id": "poc5",
 		"title": "Nina Carducci",
 		"cover": "nina_sq.webp",
+		"images": [
+			"nina_sq.webp",
+			"nina_sq.webp",
+			"nina_sq.webp",
+			"nina_sq.webp"
+		],
 		"description": "Portfolio d'une photographe professionnelle.",
 		"descriptionbis": "Optimisation des performances du site, de son SEO et de son accessibilité.",
 		"technologies": [
 			"Lighthouse",
 			"Wave"
-		]
+		],
+		"github": "https://github.com/Majtthieu/majtthieu.github.io",
+		"demo": "https://majtthieu.github.io"
 	},
 	{
 		"id": "poc2",
 		"title": "Booki",
 		"cover": "booki_sq.webp",
+		"images": [
+			"booki_sq.webp",
+			"booki_sq.webp",
+			"booki_sq.webp",
+			"booki_sq.webp"
+		],
 		"description": "Landing page d'une application d'hébergements de vacances.",
 		"descriptionbis": "Intégration d'une maquette à partir de Figma.",
 		"technologies": [
 			"HTML5",
 			"CSS3"
-		]
+		],
+		"github": "https://github.com/Majtthieu/OpenclassroomsProject"
 	}
 ]

@@ -51,7 +51,8 @@ import { Splide, SplideSlide, SplideTrack } from '@splidejs/vue-splide';
 export default {
   components: {
     Splide,
-    SplideSlide
+    SplideSlide,
+    SplideTrack
   },
   computed: {
     baseUrl() {

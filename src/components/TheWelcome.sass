@@ -1,11 +1,10 @@
-@import "../assets/main.sass"
 
 .welcome
     display: flex
     align-items: center
     height: 620px
     position: relative
-    background-color: $color1
+    background-color: $lgray
     @include small
         height: 100%
         position: static
@@ -14,7 +13,7 @@
     position: absolute
     top: -60px
     right: 0
-    background-color: $color2
+    background-color: $yellow
     z-index: 1
     @include medium
         clip-path: url(#mask-s)
@@ -49,8 +48,10 @@
         font-weight: 700
         line-height: normal
         text-transform: uppercase
-        color: $color2
-        margin-bottom: 1.5rem
+        color: $yellow
+        margin-top: 1.5rem
+        text-shadow: 1px 1px $lblack, -1px 1px $lblack, -1px -1px $lblack, 1px -1px $lblack
+        letter-spacing: 0.1rem
     &_hello, &_name
         font-family: "Playfair Display"
         font-size: calc(56rem/16)
@@ -67,7 +68,7 @@
         @include xxsmall
             font-size: 1.8rem
     &_addition
-        color: $color4
+        color: $hgray
         font-size: 1.5rem
         margin: 2rem 0
         @include medium
