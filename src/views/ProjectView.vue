@@ -6,12 +6,10 @@
       <div class="project-main">
         <div class="project-images">
 
-          <img class="project-images_dt" :src="`${baseUrl}src/assets/images/${projectImages[0]}`"
-            :alt="projectData.title" />
+          <img class="project-images_dt" :src="`${baseUrl}assets/images/${projectImages[0]}`" :alt="projectData.title" />
 
 
-          <img class="project-images_mb" :src="`${baseUrl}src/assets/images/${projectImages[1]}`"
-            :alt="projectData.title" />
+          <img class="project-images_mb" :src="`${baseUrl}assets/images/${projectImages[1]}`" :alt="projectData.title" />
 
         </div>
         <div class="project-text">
@@ -66,5 +64,7 @@ export default {
 };
 </script>
   
-<style scoped>@import "./ProjectView.sass";</style>
+<style scoped>
+@import "./ProjectView.sass";
+</style>
   

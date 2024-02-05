@@ -9,5 +9,5 @@
 </template>
 
 <style scoped>
-@import "./ErrorView.sass"; 
+@import "./ErrorView.sass";
 </style>

@@ -40,4 +40,6 @@
   </main>
 </template>
 
-<style scoped>@import "./AboutView.sass";</style>
+<style scoped>
+@import "./AboutView.sass";
+</style>
