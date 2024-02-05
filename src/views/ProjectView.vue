@@ -6,10 +6,10 @@
       <div class="project-main">
         <div class="project-images">
 
-          <img class="project-images_dt" :src="`@/assets/images/${projectImages[0]}`" :alt="projectData.title" />
+          <img class="project-images_dt" :src="`/images/${projectImages[0]}`" :alt="projectData.title" />
 
 
-          <img class="project-images_mb" :src="`@/assets/images/${projectImages[1]}`" :alt="projectData.title" />
+          <img class="project-images_mb" :src="`/images/${projectImages[1]}`" :alt="projectData.title" />
 
         </div>
         <div class="project-text">
