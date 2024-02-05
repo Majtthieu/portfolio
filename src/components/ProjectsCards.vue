@@ -18,7 +18,7 @@ import projects from '../datas/projects.json'
               </div>
               <div class="projects-card_text">
                 <h4>{{ project.title }}</h4>
-                <p>{{ project.description }}<br>{{ project.descriptionbis }}</p>
+                <p>{{ project.shortdesc }}<br>{{ project.shortdescadd }}</p>
                 <div class="projects-card_text_technologies">
                   <span class="tags" v-for="(technology, index) in project.technologies" :key="index">{{ technology }}</span>
                 </div>

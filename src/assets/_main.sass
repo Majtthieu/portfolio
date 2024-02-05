@@ -77,6 +77,16 @@ h3
   @include xxsmall
     font-size: 1.8rem
 
+h4
+  color: $lblack
+  font-family: "Playfair Display"
+  font-size: 2rem
+  font-style: normal
+  font-weight: 700
+  line-height: 150%
+  @include small
+    font-size: 1.5rem
+
 .button_global
   display: flex
   align-items: center
@@ -122,9 +132,10 @@ h3
   background-color: $lgray
   border: solid 2px $lblack
 
-.tags
+.tags, .skills-techno
   display: flex
   align-items: center
+  justify-content: center
   background-color: $yellow
   height: 2rem
   border-radius: 1rem
@@ -135,6 +146,8 @@ h3
   font-style: normal
   font-weight: 500
   line-height: 150%
+  @include xsmall
+    font-size: 1rem
 
 .long-text
   text-align: justify

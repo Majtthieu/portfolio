@@ -1,6 +1,7 @@
 <template>
     <div class="form-container">
         <h3>Contactez-moi</h3>
+        <div class="projects-title_line"></div>
         <form ref="form" @submit.prevent="sendEmail">
             <label>Nom</label>
             <input class="form-input" type="text" name="from_name" placeholder="Entrez votre nom svp" required>

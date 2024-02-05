@@ -11,21 +11,38 @@
 
 .project-main
     display: flex
+    flex-direction: column
     gap: 2rem
     @include small
         flex-direction: column
         align-items: center
 
 .project-images
-    margin: 2rem 0
+    display: flex
+    margin-top: 2rem
+    width: 100%
+    gap: 1rem
+    justify-content: center
     img
-        border: solid 2px $lblack
-    @include medium
-        img
-            width: 400px
-    @include xsmall
-        img
-            width: 300px
+        border-radius: 1rem
+        border: solid 2px $hgray
+    &_dt, &_mb
+        object-fit: contain
+        max-height: 500px
+        @include large
+            height: 400px
+        @include medium
+            height: 350px
+        @include small
+            height: 300px
+        @include xsmall
+            height: 450px
+    &_dt
+        aspect-ratio: 16/9
+        @include xsmall
+            display: none
+    &_mb
+        aspect-ratio: 9/16
 
 .project-text
     display: flex
@@ -43,7 +60,32 @@
         display: flex
         gap: 2rem
         margin-bottom: 2rem
+        a
+            &:hover
+                animation: wiggle 2s linear infinite
 
 #back-to-projects
     margin-top: 5rem
     width: 13rem
+
+@keyframes wiggle
+    0%, 7%
+        transform: rotateZ(0)
+
+    15%
+        transform: rotateZ(-15deg)
+
+    20%
+        transform: rotateZ(10deg)
+
+    25%
+        transform: rotateZ(-10deg)
+
+    30%
+        transform: rotateZ(6deg)
+
+    35%
+        transform: rotateZ(-4deg)
+
+    40%, 100%
+        transform: rotateZ(0)

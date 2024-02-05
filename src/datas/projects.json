@@ -1,16 +1,15 @@
 [
 	{
-		"id": "poc6",
+		"id": "1",
 		"title": "Kasa",
 		"cover": "kasa_sq.webp",
 		"images": [
-			"kasa_sq.webp",
-			"kasa_sq.webp",
-			"kasa_sq.webp",
-			"kasa_sq.webp"
+			"kasa_dt.webp",
+			"kasa_mb.webp"
 		],
-		"description": "Application de réservation de logements.",
-		"descriptionbis": "Création de l'appli React, de ses composants, des routes et de son style.",
+		"shortdesc": "Application de réservation de logements.",
+		"shortdescadd": "Création de l'appli React, de ses composants, des routes et de son style.",
+		"longdesc": "Dans le cadre de ce projet, j'ai mis en place l'intégration d'une maquette pour une application de location immobilière en utilisant React, tout en assurant un design responsive. J'ai développé l'application React en définissant ses routes, y compris la gestion des routes inexistantes, ainsi que la création de divers composants tels qu'un slider et des éléments collapsibles. L'utilisation de Sass a facilité l'ajustement du design aux différentes tailles d'écran grâce à l'exploitation de variables et de mixins. Pour ce projet, une démo déployée sur Vercel est disponible :",
 		"technologies": [
 			"React",
 			"Sass"
@@ -19,52 +18,49 @@
 		"demo": "https://asak.vercel.app/"
 	},
 	{
-		"id": "poc7",
+		"id": "2",
 		"title": "Mon vieux grimoire",
 		"cover": "grimoire_sq.webp",
 		"images": [
-			"grimoire_sq.webp",
-			"grimoire_sq.webp",
-			"grimoire_sq.webp",
-			"grimoire_sq.webp"
+			"grimoire_dt.webp",
+			"grimoire_mb.webp"
 		],
-		"description": "Site de notation de livres.",
-		"descriptionbis": "Développement du backend, sécurisation des mots de passe et optimisation des images.",
+		"shortdesc": "Site de notation de livres.",
+		"shortdescadd": "Développement du backend, sécurisation des mots de passe et optimisation des images.",
+		"longdesc": "Le volet front-end de l'application étant déjà achevé, ma contribution s'est concentrée sur le back-end. Mes principales tâches ont inclus la mise en place de mesures de sécurité pour les mots de passe (recours à un algorithme de hachage), la gestion des images, ainsi que la création de routes dédiées aux utilisateurs et aux livres qu'ils peuvent créer. Parallèlement, j'ai optimisé les images destinées au web en les compressant et en ajustant leurs dimensions. Les données sont stockées dans une base de données MongoDB.",
 		"technologies": [
 			"Express",
-            "MongoDB"
+			"MongoDB"
 		],
 		"github": "https://github.com/Majtthieu/OpenclassroomsProject5"
 	},
 	{
-		"id": "poc3",
+		"id": "3",
 		"title": "Sophie Bluel",
 		"cover": "sophie_sq.webp",
 		"images": [
-			"sophie_sq.webp",
-			"sophie_sq.webp",
-			"sophie_sq.webp",
-			"sophie_sq.webp"
+			"sophie_dt.webp",
+			"sophie_mb.webp"
 		],
-		"description": "Portfolio d'une designer d'espace.",
-		"descriptionbis": "Travail sans framework, notamment sur la création d'une modale d'administration.",
+		"shortdesc": "Portfolio d'une designer d'espace.",
+		"shortdescadd": "Travail sans framework, notamment sur la création d'une modale d'administration.",
+		"longdesc": "La mission consistait à enrichir le site d'une designer en ajoutant des fonctionnalités à l'aide de JavaScript, sans l'utilisation d'un framework. Mon travail a notamment abouti à la création d'une modale d'administration permettant la gestion des projets par la manipulation des données via une API. L'ensemble des opérations d'ajout et de suppression étaient conçu pour s'effectuer de manière dynamique grâce à des manipulations du DOM.",
 		"technologies": [
 			"JavaScript"
 		],
 		"github": "https://github.com/Majtthieu/OpenclassroomsProject2"
 	},
 	{
-		"id": "poc5",
+		"id": "4",
 		"title": "Nina Carducci",
 		"cover": "nina_sq.webp",
 		"images": [
-			"nina_sq.webp",
-			"nina_sq.webp",
-			"nina_sq.webp",
-			"nina_sq.webp"
+			"nina_dt.webp",
+			"nina_mb.webp"
 		],
-		"description": "Portfolio d'une photographe professionnelle.",
-		"descriptionbis": "Optimisation des performances du site, de son SEO et de son accessibilité.",
+		"shortdesc": "Portfolio d'une photographe professionnelle.",
+		"shortdescadd": "Optimisation des performances du site, de son SEO et de son accessibilité.",
+		"longdesc": "La mission consistait à optimiser le portfolio d'une photographe. Initialement, j'ai résolu des problèmes liés à certaines fonctionnalités par le biais d'un processus de débogage. Par la suite, j'ai utilisé Lighthouse pour effectuer un audit approfondi du site. En résultat, j'ai apporté divers ajustements axés sur les performances, tels que le redimensionnement et la conversion d'images, ainsi que le nettoyage du code Bootstrap inutilisé. J'ai également œuvré à améliorer l'accessibilité, le SEO technique, et le référencement local en intégrant des éléments tels que Schema.org.",
 		"technologies": [
 			"Lighthouse",
 			"Wave"
@@ -73,17 +69,16 @@
 		"demo": "https://majtthieu.github.io"
 	},
 	{
-		"id": "poc2",
+		"id": "5",
 		"title": "Booki",
 		"cover": "booki_sq.webp",
 		"images": [
-			"booki_sq.webp",
-			"booki_sq.webp",
-			"booki_sq.webp",
-			"booki_sq.webp"
+			"booki_dt.webp",
+			"booki_mb.webp"
 		],
-		"description": "Landing page d'une application d'hébergements de vacances.",
-		"descriptionbis": "Intégration d'une maquette à partir de Figma.",
+		"shortdesc": "Landing page d'une application d'hébergements de vacances.",
+		"shortdescadd": "Intégration d'une maquette à partir de Figma.",
+		"longdesc": "La tâche consistait à intégrer la maquette Figma de la landing page d'une application d'hébergements de vacances, en assurant une adaptabilité à diverses tailles d'écran. La contrainte imposée était de se limiter à l'utilisation exclusivement de HTML et de CSS. Pour relever ce défi, j'ai élaboré une structure responsive en employant uniquement ces langages, veillant à maintenir l'esthétique du design sur toutes les plateformes. Le respect de cette contrainte a nécessité une approche minutieuse dans la gestion des mises en page et des styles, tout en préservant une expérience utilisateur optimale sur différents dispositifs.",
 		"technologies": [
 			"HTML5",
 			"CSS3"
