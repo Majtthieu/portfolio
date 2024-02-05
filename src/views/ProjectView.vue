@@ -6,10 +6,10 @@
       <div class="project-main">
         <div class="project-images">
 
-          <img class="project-images_dt" :src="`${baseUrl}assets/images/${projectImages[0]}`" :alt="projectData.title" />
+          <img class="project-images_dt" :src="`@/assets/images/${projectImages[0]}`" :alt="projectData.title" />
 
 
-          <img class="project-images_mb" :src="`${baseUrl}assets/images/${projectImages[1]}`" :alt="projectData.title" />
+          <img class="project-images_mb" :src="`@/assets/images/${projectImages[1]}`" :alt="projectData.title" />
 
         </div>
         <div class="project-text">
@@ -41,11 +41,6 @@
 import projects from '../datas/projects.json';
 
 export default {
-  computed: {
-    baseUrl() {
-      return import.meta.env.BASE_URL;
-    }
-  },
   data() {
     return {
       projectData: null,

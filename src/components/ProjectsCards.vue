@@ -16,7 +16,7 @@ import projects from '../datas/projects.json'
           <SplideSlide v-for="(project) in projects" :key="project.id">
             <router-link :to="`/project/${project.id}`" class="projects-card">
               <div class="projects-card_image">
-                <img :src="`${baseUrl}assets/images/${project.cover}`" :alt="project.title">
+                <img :src="`@/assets/images/${project.cover}`" :alt="project.title">
               </div>
               <div class="projects-card_text">
                 <h4>{{ project.title }}</h4>
@@ -56,11 +56,6 @@ export default {
     Splide,
     SplideSlide,
     SplideTrack
-  },
-  computed: {
-    baseUrl() {
-      return import.meta.env.BASE_URL;
-    }
   },
 };
 </script>
