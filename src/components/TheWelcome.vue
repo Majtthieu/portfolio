@@ -12,8 +12,8 @@
       <div class="welcome-text_buttons">
         <a href="#projects-anchor" class="button_global button_projects">Projets</a>
         <button class="button_global button_contact" @click="$router.push('/contact')">Contact</button>
-        <!-- <a  download="fake_cv.pdf" href="@/assets/fake_cv.pdf">--><button class="button_global button_resume"><img
-            src="@/assets/images/icos/save.svg" alt="icone téléchargement" />CV</button><!--</a> -->
+        <a class="button_global button_resume" download="cv-jankowiak.pdf" href="/cv-jankowiak.pdf"><img
+            src="@/assets/images/icos/save.svg" alt="icone téléchargement" />CV</a>
       </div>
     </div>
     <div class="welcome-illustration">
@@ -37,4 +37,6 @@
   </div>
 </template>
 
-<style scoped>@import "./TheWelcome.sass";</style>
+<style scoped>
+@import "./TheWelcome.sass";
+</style>

@@ -8,17 +8,20 @@
       <div class="about-text">
         <h3>À propos de moi</h3>
         <div class="projects-title_line"></div>
-        <p class="long-text">
-          En transition professionnelle, je viens de me former avec OpenClassrooms pour me positionner en tant que
-          développeur débutant. Toutefois, mes compétences interpersonnelles,
-          forgées au fil de mon parcours professionnel, constituent un atout majeur.
-          Mon CV témoigne de ces compétences. J'ai toujours allié efficacement le travail en autonomie et en équipe,
-          démontrant une capacité d'adaptation et de résolution de problèmes. Bien que mes compétences techniques soient
-          en évolution, ma solide compréhension du monde professionnel me permet d'apporter une valeur ajoutée à toute
-          équipe. N'hésitez pas à me contacter pour en discuter davantage.
+        <p class="long-text">Le développement web me fascine par sa créativité et sa diversité. Je viens de réussir une
+          formation dans ce domaine avec OpenClassrooms (<a
+            href="https://static.oc-static.com/syllabus/899-developpeur-web-fr-fr-standard.pdf" target="_blank"
+            class="program-link">pdf du programme</a>). J'ai travaillé sur plusieurs projets
+          qui m'apportent de solides bases en Front-end et back-end. Je suis également à l’aise avec les outils de gestion
+          de version comme Git et GitHub.<br>Mais ce n’est pas tout ! Fort de mon expérience antérieure, je possède des
+          compétences interpersonnelles indispensables pour travailler en équipe. Je sais communiquer efficacement,
+          m’adapter aux situations, et résoudre les problèmes. Mon CV vous en dira plus sur mon parcours et mes
+          réalisations. Je suis convaincu que je peux apporter une valeur ajoutée à votre entreprise, grâce à ma
+          motivation, ma curiosité et ma capacité d’apprentissage. Je serais ravi de discuter de votre projet et de vos
+          besoins. N'hésitez pas à me contacter.
         </p>
-        <button class="button_global button_resume"><img src="@/assets/images/icos/save.svg"
-            alt="icone téléchargement" />CV</button>
+        <a class="button_global button_resume" download="cv-jankowiak.pdf" href="/cv-jankowiak.pdf"><img
+            src="@/assets/images/icos/save.svg" alt="icone téléchargement" />CV</a>
       </div>
       <div class="about-illustrations">
         <div class="about-illustrations_image">
@@ -40,6 +43,4 @@
   </main>
 </template>
 
-<style scoped>
-@import "./AboutView.sass";
-</style>
+<style scoped>@import "./AboutView.sass";</style>

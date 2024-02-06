@@ -9,7 +9,7 @@
 		],
 		"shortdesc": "Application de réservation de logements.",
 		"shortdescadd": "Création de l'appli React, de ses composants, des routes et de son style.",
-		"longdesc": "Dans le cadre de ce projet, j'ai mis en place l'intégration d'une maquette pour une application de location immobilière en utilisant React, tout en assurant un design responsive. J'ai développé l'application React en définissant ses routes, y compris la gestion des routes inexistantes, ainsi que la création de divers composants tels qu'un slider et des éléments collapsibles. L'utilisation de Sass a facilité l'ajustement du design aux différentes tailles d'écran grâce à l'exploitation de variables et de mixins. Pour ce projet, une démo déployée sur Vercel est disponible :",
+		"longdesc": "Dans le cadre de ce projet, j'ai mis en place l'intégration d'une maquette pour une application de location immobilière en utilisant React, tout en assurant un design responsive. J'ai développé l'application React en définissant ses routes, y compris la gestion des routes inexistantes, ainsi que la création de divers composants tels que des éléments collapsibles et un carousel. Ce dernier a été particulièrement intéressant à mettre en place. Les hooks se révèlent alors pratiques pour gérer les états et le cycle de vie. L'utilisation de Sass a facilité l'ajustement du design aux différentes tailles d'écran grâce à l'exploitation de variables et de mixins. Pour ce projet, une démo déployée sur Vercel est disponible :",
 		"technologies": [
 			"React",
 			"Sass"
@@ -27,7 +27,7 @@
 		],
 		"shortdesc": "Site de notation de livres.",
 		"shortdescadd": "Développement du backend, sécurisation des mots de passe et optimisation des images.",
-		"longdesc": "Le volet front-end de l'application étant déjà achevé, ma contribution s'est concentrée sur le back-end. Mes principales tâches ont inclus la mise en place de mesures de sécurité pour les mots de passe (recours à un algorithme de hachage), la gestion des images, ainsi que la création de routes dédiées aux utilisateurs et aux livres qu'ils peuvent créer. Parallèlement, j'ai optimisé les images destinées au web en les compressant et en ajustant leurs dimensions. Les données sont stockées dans une base de données MongoDB.",
+		"longdesc": "Le volet front-end de l'application étant déjà achevé, ma contribution s'est concentrée sur le back-end. Le principal défi a été de comprendre les principes de Node, l'asynchronisme et l'articulation routes / contrôleurs / middlewares. Une structure de code organisée permet de mieux appréhender ces difficultés. Mes principales tâches ont inclus la mise en place de mesures de sécurité pour les mots de passe (recours à un algorithme de hachage), la gestion des images, ainsi que la création de routes dédiées aux utilisateurs et aux livres qu'ils peuvent créer. Parallèlement, j'ai optimisé les images destinées au web en les compressant et en ajustant leurs dimensions. Les données sont stockées dans une base de données MongoDB.",
 		"technologies": [
 			"Express",
 			"MongoDB"
@@ -60,7 +60,7 @@
 		],
 		"shortdesc": "Portfolio d'une photographe professionnelle.",
 		"shortdescadd": "Optimisation des performances du site, de son SEO et de son accessibilité.",
-		"longdesc": "La mission consistait à optimiser le portfolio d'une photographe. Initialement, j'ai résolu des problèmes liés à certaines fonctionnalités par le biais d'un processus de débogage. Par la suite, j'ai utilisé Lighthouse pour effectuer un audit approfondi du site. En résultat, j'ai apporté divers ajustements axés sur les performances, tels que le redimensionnement et la conversion d'images, ainsi que le nettoyage du code Bootstrap inutilisé. J'ai également œuvré à améliorer l'accessibilité, le SEO technique, et le référencement local en intégrant des éléments tels que Schema.org.",
+		"longdesc": "La mission consistait à optimiser le portfolio d'une photographe. C'est un aspect du travail de développeur très intéressant, le challenge que représente l'obtention de performances élevées est stimulant. Initialement, j'ai résolu des problèmes liés à certaines fonctionnalités par le biais d'un processus de débogage. Par la suite, j'ai utilisé Lighthouse pour effectuer un audit approfondi du site. En résultat, j'ai apporté divers ajustements axés sur les performances, tels que le redimensionnement et la conversion d'images, ainsi que le nettoyage du code Bootstrap inutilisé. J'ai également œuvré à améliorer l'accessibilité, le SEO technique, et le référencement local en intégrant des éléments tels que Schema.org.",
 		"technologies": [
 			"Lighthouse",
 			"Wave"
