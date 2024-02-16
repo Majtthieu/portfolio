@@ -10,13 +10,13 @@ import projects from '../datas/projects.json'
     </div>
     <div class="projects-cards">
       <Splide
-        :options="{ rewind: true, perPage: 3, perMove: 2, arrows: true, pagination: false, breakpoints: { 1280: { perPage: 2, perMove: 1 }, 768: { perPage: 1, perMove: 1 } } }"
+        :options="{ rewind: true, perPage: 3, perMove: 2, arrows: true, pagination: false, lazyLoad: 'sequential', breakpoints: { 1280: { perPage: 2, perMove: 1 }, 768: { perPage: 1, perMove: 1 } } }"
         aria-label="carousel de mes derniers projets" :has-track="false">
         <SplideTrack>
           <SplideSlide v-for="(project) in projects" :key="project.id">
             <router-link :to="`/project/${project.id}`" class="projects-card">
               <div class="projects-card_image">
-                <img :src="`/images/${project.cover}`" :alt="project.title">
+                <img :data-splide-lazy="`/images/${project.cover}`" :alt="project.title">
               </div>
               <div class="projects-card_text">
                 <h4>{{ project.title }}</h4>
